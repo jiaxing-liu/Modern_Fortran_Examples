@@ -1,1 +1,1 @@
-rm -rf `ls -I "*.sh"`
+rm -rf `ls -a -I "*.sh"  -I . -I ..`
