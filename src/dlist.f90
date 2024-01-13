@@ -12,5 +12,6 @@ program main
     call my_list%add('A')
     call my_list%add('B')
     call my_list%add('C')
+    call my_list%addvalue('D')
     call my_list%printvalues()
 end program main
